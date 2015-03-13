@@ -1,0 +1,25 @@
+---
+layout: default
+title: oscillatingblog
+---
+<section id="posts" class="about bg-success">
+	<div class="container">
+		<div class="posts">
+		<ul class="clean">
+			{% for post in site.posts %}
+			<li>
+				<a href="{{site.baseurl}}{{ post.url }}#post">
+					<span class="title oswfont">{{ post.title }}</span>
+				</a>
+				<p class="date">Published on {{ post.date | date_to_string }} by
+					<strong>{{ post.author }}</strong>
+				</p>
+				<p class="description">{{ post.description }}</p>
+				<br>
+			</li>
+			{% endfor %}
+		</ul>
+		</div>
+	</div>
+    <!-- /.container -->
+</section>

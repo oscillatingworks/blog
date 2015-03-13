@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<section id="post" class="about bg-success">
+	<div class="container">
+		<h2 class="title oswfont">{{ page.title }}</h2>
+		<p class="meta date">Published on {{ page.date | date_to_string }} by
+					<strong>{{ page.author }}</strong>
+		</p>
+		<br>
+		<div class="post">
+		{{ content }}
+		</div>
+		<a href="{{site.baseurl}}/#posts" class="btn btn-dark btn-lg">Back</a>
+	</div>
+    <!-- /.container -->
+</section>
