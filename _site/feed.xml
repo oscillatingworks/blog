@@ -10,9 +10,9 @@
 				<title>Building SQLite clusters with rqlite</title>
 				        
 				
-					<description>&lt;p&gt;Today our compass lead us into direction of &lt;a href=&quot;https://github.com/otoolep/rqlite&quot;&gt;rqlite&lt;/a&gt;.
-It a is small, comprehensive, &lt;a href=&quot;https://raftconsensus.github.io/&quot;&gt;Raft&lt;/a&gt; based clustering middleware for &lt;a href=&quot;https://sqlite.org/&quot;&gt;SQLite&lt;/a&gt; databases.
-Someone could ask who the hell would need SQLite cluster but first things first.&lt;/p&gt;
+					<description>&lt;p&gt;Today our compass lead us into direction of &lt;a href=&quot;https://github.com/otoolep/%60rqlite%60&quot;&gt;&lt;code&gt;rqlite&lt;/code&gt;&lt;/a&gt;. It is a small, comprehensive, &lt;a href=&quot;https://raftconsensus.github.io/&quot;&gt;Raft&lt;/a&gt;-based
+clustering middleware for &lt;a href=&quot;https://sqlite.org/&quot;&gt;SQLite&lt;/a&gt; databases. Someone could ask
+who the hell would need SQLite cluster, but first things first.&lt;/p&gt;
 </description>
 				
 				<pubDate>Thu, 26 Mar 2015 01:00:00 +0100</pubDate>
