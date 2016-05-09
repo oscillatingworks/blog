@@ -42,7 +42,7 @@ the same command to create a basic blog post:
 
 ~~~
 ./jekyll-post -D=_posts "This is post title and it's mandatory"
-~~~ 
+~~~
 
 You will find the new blog post file inside the `_posts` directory, ready
 to be redacted.
@@ -57,8 +57,8 @@ in the header as long you need them.
 ### Syntax Highlighting
 
 You can use the classic code blocks in your markdown, but unfortunately
-the syntax won't be highlighted. To fix this, `jekyll` parser uses `pygments`,
-which is a plugin written in Python that set the highlighting correctly, i.e.
+the syntax won't be highlighted. To fix this, `jekyll` parser uses `rouge`,
+which is a Ruby library that set the highlighting correctly, i.e.
 set this notation to provide proper syntax highlighting:
 
 ~~~markdown
