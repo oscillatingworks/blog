@@ -1,7 +1,9 @@
 blog
 ====
 
-This is the source code of [blog.oscillating.works](http://blog.oscillating.works).
+#### :warning:Deprecated:warning:
+
+This is the source code of ~~[blog.oscillating.works](http://blog.oscillating.works)~~.
 It's based on [Jekyll](http://jekyllrb.com/) and hosted on
 [GitHub Pages](https://pages.github.com/).
 
